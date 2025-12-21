@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: "Sans";
+    src: format(truetype) url(Fontes/TIMESS__.ttf);
+}
+
+:root {
+    --fontepadrao: arial, verdana, sans-serif;
+    --fontesans: Sans, arial, verdana, sans-serif;
+    --cor1: #6B54BF;
+    --cor2: #BFA754;
+    --cor3: #675A95;
+    --cor4: #393740;
+    --cor5: #272333;
+}
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: var(--fontesans);
+    padding: 20px;
+    background-color: var(--cor5);
+}
+
+header>nav>ul>li>a {
+    color: #BFA754;
+    text-decoration: none;
+}
+
+header>nav>ul>li>a:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+    box-shadow: 2px 2px 20px black;
+}
+
+body {
+    background-image: linear-gradient(to bottom , var(--cor3) , var(--cor5));
+}
+
+main {
+    min-width: 50vw;
+    max-width: 100vw;
+}
+
+main >.eu {
+    display: flex;
+    justify-content: left;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 300px;
+    height: 300px;
+gap: 3rem;
+}
+
+
+
+main>.foto1>img {
+    height: 30rem;
+    width: 50rem;
+    margin-top: 30rem;
+    justify-content: right;
+}

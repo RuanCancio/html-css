@@ -1,0 +1,80 @@
+ :root {
+ --cor0:#9A9EE7;
+ --cor02:#575EAF;
+ --cor03:#B8893B;
+ --cor04:#D6FFBD;
+
+ --fonte-padrao: arial, sans-serif
+}
+
+* {color: wheat;
+    font-family: var(--fonte-padrao);
+    margin:0px;
+    padding: 0px;
+}
+
+main { min-width:400px;
+    max-width: 1900px;}
+
+header {background-image: linear-gradient(to bottom , #9A9EE7 ,#d6ffbd3d);
+margin: auto;
+padding-top: 10px;
+
+}
+
+header > nav > a {font-family: var(--fonte-padrao);
+text-decoration: none;
+color: white;
+padding: 15px;
+margin: 20px;
+font-size: 1.2rem;
+}
+nav {padding-bottom: 10px;}
+
+header > nav > a:hover {
+    color: #492827;
+    background-color: white;
+    box-shadow: 2px 2px 20px black;
+    transition: 0.2s;
+}
+
+header > h1 { margin-bottom: 15px;
+text-align: center;}
+
+header > p {font-family: var(--fonte-padrao);
+font-size: 1.2em;
+color: white;
+margin-bottom: 20px;
+text-align: center;}
+
+body {background-color: #575EAF;}
+
+main > .waylay > img {margin-top: 30px;
+margin-left: 20px;
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.568);
+background-color: #575EAF;
+}
+main > .waylay > img:hover {border: 5px solid white;
+    transition: 0.2s;
+    width: auto;
+}
+
+
+main > .waylay > p{font-size: 1.2em;
+        margin-top: -20em;
+    margin-left: 41em;
+    height: 414px;
+
+}
+
+main > .reyna > img{display:block;
+    justify-content: right;
+    margin-top: 30rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main > .reyna > img:hover {border: 5px solid wheat;
+transition: 0.2s;
+background-color:#2F0E39;
+}

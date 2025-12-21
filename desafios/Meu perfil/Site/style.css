@@ -1,0 +1,31 @@
+body {background-color: rgba(0, 0, 0, 0.86);
+color: antiquewhite; width:500px;
+padding: 10px;
+margin: auto;
+text-align: justify;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+
+}
+a{color: antiquewhite;
+text-decoration: none;
+}
+
+main{background-color: rgba(97, 111, 122, 0.192);
+padding: 1rem;}
+
+ul > li > img {
+    width:20px;
+    height: 20px;
+}
+
+.center img{border-radius: 50%;
+}
+

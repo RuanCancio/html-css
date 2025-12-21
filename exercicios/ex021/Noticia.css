@@ -1,0 +1,18 @@
+header{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif bisque;
+padding: 100px;
+background-color: blueviolet;
+margin: 5px;}
+
+main{background-color: rgb(167, 159, 149);
+padding: 100px;
+margin-top: 5px;}
+
+body{
+    font-size: 30px;
+    background-color: rgb(216, 214, 214);
+}
+
+nav > a {text-decoration: none;
+color: aliceblue;
+padding: 10px;
+}

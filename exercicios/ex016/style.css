@@ -1,0 +1,9 @@
+
+body{background-image: linear-gradient(to right
+    ,#808080,#9D6464,#733636,#481616);
+    height:100%;
+}
+
+main{background-color: white;
+margin: auto; width: 500px;
+padding: 10px;}

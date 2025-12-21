@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"Love";
+    src: url(fontes/Royal\ Cocktail.ttf) format("truetype");
+    
+    
+}
+body{font-family: love;
+color: aqua;
+    background-color: aquamarine;
+font-size:10px;
+    font-weight: 100px;
+    font-style: normal;}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family:"tdroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+.navbar {background-image: linear-gradient(#34B96F, #1C643B);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top:-10px;
+    padding:10px;
+    margin-left: -20px;
+    margin-right:-8px;
+    font-size: 1.2rem;
+
+}
+.navbar2{
+text-align:left;
+margin-top: 100px;
+}
+
+.navbar2 a:hover {background-color: #34B96F;
+color: white;
+padding: 10px;
+border-radius: 10px;
+transition: 0.2s;}
+
+
+a{color: white;
+text-decoration: none;
+padding-right: 10px;
+margin-left: 10px;}
+
+body{background-color: #84E1AD;
+
+min-width: 30vw;
+max-width: 100vw;}
+
+
+#principal{font-family:"tdroid";
+    background-color: #fff;
+    padding:5px;
+    margin: auto;
+min-width:450px;
+max-width: 1000px;}
+
+.tag1{color: #1C643B;
+}
+
+.tag2 {color: #1C643B;
+background-image:linear-gradient(90deg, #c0ffdb, #fff)}
+
+.parag{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+text-align: justify;
+}
+
+.int {display: flex;
+justify-content: center;}
+
+.bug{display: flex;
+justify-content: center;}
+
+.yt{display: flex;
+justify-content: center;}
+
+iframe {border:20px solid #1C643B;
+}
+
+#list {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: #fff;
+    margin:auto;
+padding-bottom: 30px;}
+
+    .what {background-color: #37b36e;
+    color: white;
+    margin:0px 20px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px 20px 0px 0px;}
+
+.divisao {background-color:#C5EBD6;
+margin: -17px 20px;
+padding:2px 10px 10px 10px;
+}
+
+
+.pe {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    margin: 10px -8px -100px -8px;
+}
+
+.verde{color:#37b36e;}
+
+.olameu {
+    display: flex;
+    column-gap: 4rem;
+
+}

@@ -1,0 +1,38 @@
+body{font-family: 'Courier New', Courier, monospace;
+font-size: 32px;
+background-color: bisque;}
+
+.alo{
+    background-color: aquamarine;
+    width:300px;
+    height: 300px;
+    text-align:unset;
+}
+
+.alo > h1 {display: none;}
+
+.alo:hover > h1 {display:block;
+    background-color: rgb(0, 68, 255);
+    height: 300px;
+    width:300px;
+}
+
+.alo:hover > p{display:none;}
+
+.pika{font-size: 20px;}
+.pai{text-decoration: none;}
+
+.pai:visited{
+    color: rgb(26, 60, 90);
+}
+
+.pai::before{color: blue;
+content: "[Não clicado]";
+display:block;}
+
+.pai:active{color: red;
+text-decoration: none;}
+
+.pai::after{color: rgb(0, 255, 157);
+content:"[colocado]";
+display:block;}

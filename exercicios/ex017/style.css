@@ -1,0 +1,14 @@
+h1, h2 {font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+padding:2px;
+text-align:center;
+margin: 1.5em;
+background-color: rgba(255, 228, 196, 0.322);
+background-size: ;}
+
+p{text-align: center;
+background-color: cornflowerblue;
+
+}
+body{background-color: slategray;
+color: aliceblue;}
