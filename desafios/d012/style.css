@@ -1,0 +1,99 @@
+.bbh-bogle-regular {
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    font-family: "BBH Bogle", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+header>p>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header>p>a:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+    transition-delay: 0.5s;
+}
+
+main {
+    font-family: "Caveat Brush", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.7rem;
+    min-width: 450px;
+    
+}
+
+main {
+    margin: 7rem 0px 0px 0px;
+}
+main > div > p {
+    margin-bottom: 10px;
+}
+div {
+    margin-bottom: 7rem;
+    margin-left: 20px;
+}
+
+#opacity {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    margin: 0;
+    width:470px;
+    height: 570px;
+}
+
+#opacity > p {
+    margin:20px;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.joaninha1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center left;
+    background-attachment:scroll;
+    height: 50rem;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+}
+
+.livros1 {
+    background-image: url(imagens/background002.jpg);
+    background-position: center left;
+    background-attachment:scroll;
+    height: 50rem;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+}
