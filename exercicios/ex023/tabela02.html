@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+    <style>
+
+        h1 {
+            margin-left: 20px;
+        }
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            border-collapse: collapse;
+            margin-left: 20px;
+        }
+
+        thead , tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        td,
+        tr,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            height: 50px;
+            width: 300px;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabela da população nacional</h1>
+    <table>
+        <thead>
+            <th>Unidade Federativa</th>
+            <th>população</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acre</td>
+                <td class="num">884 372</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 220 848</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">806 517</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 321 616</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 870 907</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 268 836</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <td class="num">213 421 037 </td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
