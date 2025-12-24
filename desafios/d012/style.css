@@ -45,15 +45,17 @@ main {
     font-style: normal;
     font-size: 1.7rem;
     min-width: 450px;
-    
+
 }
 
 main {
     margin: 7rem 0px 0px 0px;
 }
-main > div > p {
+
+main>div>p {
     margin-bottom: 10px;
 }
+
 div {
     margin-bottom: 7rem;
     margin-left: 20px;
@@ -63,13 +65,13 @@ div {
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
     margin-left: 0px;
-    width:470px;
+    width: 470px;
     height: 570px;
-    padding:10px;
+    padding: 10px;
 }
 
-#opacity > p {
-    margin:20px;
+#opacity>p {
+    margin: 20px;
     padding-top: 5px;
 }
 
@@ -79,20 +81,21 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
 .joaninha1 {
     background-image: url(imagens/background001.jpg);
     background-position: left top;
-    background-size:cover;
-    background-attachment:fixed;
+    background-size: cover;
+    background-attachment: fixed;
     height: 50rem;
     background-repeat: no-repeat;
-    margin-left:0px;
+    margin-left: 0px;
 }
 
 .livros1 {
     background-image: url(imagens/background002.jpg);
     background-position: center left;
-    background-attachment:fixed;
+    background-attachment: fixed;
     height: 50rem;
     background-repeat: no-repeat;
     margin-left: -20px;
