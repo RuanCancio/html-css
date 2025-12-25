@@ -42,6 +42,11 @@
         tbody > tr:nth-child(odd) {
             background-color: rgba(238, 130, 238, 0.418);
         }
+
+       thead > tr > th {
+            position: sticky;
+            background-color:gray ;
+        }
     </style>
 </head>
 
@@ -49,8 +54,10 @@
     <h1>Tabela da população nacional</h1>
     <table>
         <thead>
-            <th>Unidade Federativa</th>
-            <th>população</th>
+            <tr>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">população</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -79,10 +86,12 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total</th>
+            <th scope="row">Total</th>
             <td class="num">213 421 037 </td>
         </tfoot>
     </table>
+<p style="font-size: 200px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptate molestias ad eius expedita officia eveniet asperiores ea fuga! Facilis amet ea ullam libero aperiam. Cumque voluptatum mollitia officiis ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed quis placeat cupiditate ipsum voluptate odio illo, corrupti dolor, iusto tempora eligendi consectetur debitis sequi maxime molestias harum pariatur quas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum modi illum, deleniti facere pariatur cupiditate ipsa quisquam. Quis reiciendis sit pariatur tempore voluptatum alias cupiditate, numquam consectetur. Maiores, cum culpa? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias iste voluptates quas doloremque in quasi facilis laboriosam voluptatem. Veniam, temporibus asperiores maiores praesentium facere nobis sunt tenetur ea id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ad corrupti, blanditiis optio fugiat quo iusto, placeat odio asperiores dignissimos magnam repudiandae ipsum enim iste ipsam nulla, dolor reiciendis perspiciatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores eaque maxime quis? Ipsa tenetur animi quis iusto voluptatum veritatis exercitationem libero earum fugit! Officia incidunt dolorem eaque expedita vero.
+</p>
 </body>
 
 </html>
