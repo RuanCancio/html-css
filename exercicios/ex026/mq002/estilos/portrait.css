@@ -1,1 +1,8 @@
 /*Estilo retrato*/
+body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #233eff;
+    background-size: contain;
+}
