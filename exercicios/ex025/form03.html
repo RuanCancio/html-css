@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form03</title>
+    <style>
+        div {
+            margin: 10px;
+            
+        }
+
+        span:hover {
+            border: 4px solid white;
+            background-color: rgb(18, 49, 189);
+            color: white;
+            border-radius: 15px;
+            padding: 10px;
+            transition: 0.2s;
+        }
+        span {
+            margin-bottom: 40px;
+        }
+        h1 {
+            margin-left: 10px;
+        }
+        body {
+            background-image:linear-gradient(rgb(49, 49, 49), black);
+            color: white;
+            background-repeat: no-repeat;
+            height:97vh;
+            width:auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <h1>Coloque seus dados!</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                    <span>
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" required placeholder="Coloque seu nome!" autocomplete="name" minlength="5" maxlength="30">
+                    </span>
+            </div>
+            <div>
+                <span>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="E-mail" id="iemail" required placeholder="Coloque seu E-mail!" autocomplete="email" maxlength="20">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="inumber">Número</label>
+                    <input type="tel" name="number" id="inumber" required placeholder="Coloque seu número!" autocomplete="tel" max="10">
+                </span>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <label for="ihomem">Homem</label>
+                <input type="radio" name="sexo" id="ihomem">
+                <label for="imulher">Mulher</label>
+                <input type="radio" name="sexo" id="imulher">
+                <label for="ismurf">Smurf</label>
+                <input type="radio" name="sexo" id="ismurf">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Exercícios favoritos</legend>
+            <div>
+                <label for="isup">Superiores</label>
+                <input type="checkbox" name="sup" id="isup"><br>
+                <label for="iinf">Inferiores</label>
+                <input type="checkbox" name="inf" id="iinf"><br>
+                <label for="iall">Allday</label>
+                <input type="checkbox" name="all" id="iall"><br>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
