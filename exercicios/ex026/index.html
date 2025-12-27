@@ -25,11 +25,10 @@
 </head>
 <body>
     <h1>Formulário de quem vai me dar a bunda primeiro</h1>
-    <form action="index.html" autocomplete="off">
-        <p><label for="inome">Nome</label><input type="text" name="Nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
-        <input type="submit" value="Enviar" class="butao">
-        
+    <form action="form.php" method="post" autocomplete="on">
+        <p><label for="inome">Nome</label><input type="text" name="Nome" id="inome" placeholder="Coloque seu nome" autocomplete="name" maxlength="10" size="20" required></p>
+        <p><label for="isobrenome">Sobrenome</label> <input type="text" name="Sobrenome" id="isobrenome" placeholder="Coloque seu sobrenome" maxlength="10" size="20" required></p>
+        <input type="submit" value="Enviar" class="butao" placeholder="Coloque para enviar">
     </form>
 </body>
 </html>
