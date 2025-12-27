@@ -79,11 +79,11 @@
             <legend>Sexo</legend>
             <div>
                 <label for="ihomem">Homem</label>
-                <input type="radio" name="sexo" id="ihomem" value="H">
+                <input type="radio" name="sexo" id="ihomem" value="H" required>
                 <label for="imulher">Mulher</label>
-                <input type="radio" name="sexo" id="imulher" value="M">
+                <input type="radio" name="sexo" id="imulher" value="M" required>
                 <label for="ismurf">Smurf</label>
-                <input type="radio" name="sexo" id="ismurf" value="S">
+                <input type="radio" name="sexo" id="ismurf" value="S" required>
             </div>
         </fieldset>
         <fieldset>
@@ -101,13 +101,40 @@
             <div class="rol">
                 <legend>Qual o seu nível de satisfação com o meu site?</legend>
                 <label for="irol">Nível:</label>
-                <input type="range" name="rol" id="irol" value="0">
+                <input type="range" name="rol" id="irol" value="0" required>
             </div>
-            <div class="bot">
+        </fieldset>
+        <fieldset>
+            <legend>Extras</legend>
+            <div>
+                <label for="iscol">Escolha</label>
+                <select name="scol" id="iscol" required>
+                <optgroup label="---Os melhores---">
+                    <option value="None" selected>None</option>
+                    <option value="P">Peito</option>
+                    <option value="B">Bunda</option>
+                    <option value="X">Xibiu</option>
+                    <option value="Bo">Boca</option>
+                </optgroup>
+                </select>
+            </div>
+            <div><label for="imens">Sua Mensagem</label>
+                <textarea name="mens" id="imens" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="itext">Profissão:</label>
+                <input type="text" name="tex" id="itex" list="test"required>
+                <datalist id="test">
+                    <option>Job</option>
+                    <option>Professor</option>
+                    <option>Gamer</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <div class="bot">
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Resetar">
             </div>
-        </fieldset>
     </form>
 </body>
 </html>
