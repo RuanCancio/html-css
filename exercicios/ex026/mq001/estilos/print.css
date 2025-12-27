@@ -7,3 +7,6 @@
 menu {
     display: none;
 }
+article::after {
+    content:"Site feito por Ruan da Pastelaria";
+}
