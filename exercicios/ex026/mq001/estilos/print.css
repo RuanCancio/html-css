@@ -1,0 +1,9 @@
+/*Somente para impressoras*/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+menu {
+    display: none;
+}
