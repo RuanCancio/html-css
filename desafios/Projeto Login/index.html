@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
-    <link rel="stylesheet" href="estilos/style.css"
-    ">
-</head>
+    <link rel="stylesheet" href="estilos/style.css" ">
+    <link rel=" stylesheet" href="estilos/media-query.css">
+
 <body>
     <main>
-        <section id="Login">
-<div id="imagem">
+        <section id="login">
+            <div id="imagem">
 
-
-</div>
-<div id="formulario">
-<h1>Login</h1>
-<p>Seja bem-vindo ao meu site. Faça login para acessar!</p>
-<form action="form.php" method="post">
-    
-</form>
-</div>
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo ao meu site. Faça login para acessar!</p>
+                <form action="form.php" method="post" autocomplete="on">
+                    <div class="login">
+                        <label for="ilogin"><img src="imagens/person_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
+                                alt="person"></label>
+                        <input type="email" name="email" id="ilogin" required autocomplete="email" placeholder="Coloque seu email">
+                    </div>
+                    <div class="senha">
+                        <label for="isenha"><img src="imagens/password_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
+                                alt="pass"></label>
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Coloque sua senha">
+                    </div>
+                    <div class="esqueci">
+                        <a href="esqueci.html">Esqueceu a sua senha?</a>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
+
 </html>
