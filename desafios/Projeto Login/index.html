@@ -21,18 +21,20 @@
                     <div class="login">
                         <label for="ilogin"><img src="imagens/person_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
                                 alt="person"></label>
-                        <input type="email" name="email" id="ilogin" required autocomplete="email" placeholder="Coloque seu email">
+                        <input type="email" name="email" id="ilogin" required autocomplete="email"
+                            placeholder="Coloque seu email" maxlength="30">
                     </div>
-                    <div class="senha">
+                    <div class="login">
                         <label for="isenha"><img src="imagens/password_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
                                 alt="pass"></label>
-                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Coloque sua senha">
-                    </div>
-                    <div class="esqueci">
-                        <a href="esqueci.html">Esqueceu a sua senha?</a>
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password"
+                            placeholder="Coloque sua senha" minlength="8" maxlength="20">
                     </div>
                     <div class="enviar">
                         <input type="submit" value="Enviar">
+                    </div>
+                    <div class="esqueci">
+                        <a href="esqueci.html">Esqueceu a sua senha?</a>
                     </div>
                 </form>
             </div>
