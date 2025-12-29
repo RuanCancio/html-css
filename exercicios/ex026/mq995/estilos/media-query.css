@@ -1,0 +1,24 @@
+@media screen and (min-width:768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+        margin: 0px 5px 10px 5px;
+        border-radius: 15px;
+    border: 0px;}
+
+        menu li:hover {
+            border: 2px solid white;
+            transition: 0.1s;
+            box-sizing: border-box;
+        }
+        article {
+            width: 700px;
+        }
+}
