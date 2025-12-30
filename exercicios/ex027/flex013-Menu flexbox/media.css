@@ -1,0 +1,22 @@
+@media screen and (min-width:700px) {
+    header h1 {
+        text-align:left;
+        position: absolute;
+        top: 20px;
+        display:block;
+    }
+    nav {
+        flex-flow: row nowrap;
+        justify-content:flex-end;
+    }
+
+    nav a {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    nav {
+        justify-content: center;
+    }
+}
