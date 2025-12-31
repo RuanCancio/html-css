@@ -6,7 +6,7 @@
 
 header.topo {
     background-color: lightcoral;
-    width: 100vw;
+    width: 100%;
     height: 200px;
     display: grid;
     align-items: end;
@@ -19,13 +19,20 @@ menu {
 
 .meio {
     background-color: rgb(174, 88, 255);
-    height:600px;
+    height:670px;
     display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    justify-items: right;
 }
 
 .direita {
     background-color: lightgoldenrodyellow;
     width: 400px;
-    grid-template-columns: 3 / 100px;
-    grid-template-rows: 3 /100px;
+    grid-area: 1 / 3 / span 3 / span 1;
+}
+
+.rodape {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(155, 238, 173);
 }
