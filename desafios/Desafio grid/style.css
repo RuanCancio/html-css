@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+header.topo {
+    background-color: lightcoral;
+    width: 100vw;
+    height: 200px;
+    display: grid;
+    align-items: end;
+}
+
+menu {
+    background-color: lightblue;
+    height: 100px;
+}
+
+.meio {
+    background-color: rgb(174, 88, 255);
+    height:600px;
+    display: grid;
+}
+
+.direita {
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    grid-template-columns: 3 / 100px;
+    grid-template-rows: 3 /100px;
+}
